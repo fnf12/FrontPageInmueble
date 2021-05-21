@@ -1,0 +1,249 @@
+/* configuraciom general */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    list-style: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+h2,h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* seccion header */
+
+header{
+    height:100%;
+    background: url(./img/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding: 1rem;
+    margin: 2rem 3rem;
+    align-items:center;
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu ul a{
+    color: #ffffff;
+    padding: 5px 20px;
+    font-size: 20px;
+    font-family: 'Hind', sans-serif;
+}
+
+.menu ul a:hover{
+    background-color: #124d7a;
+}
+
+.htitulo {
+    margin: 2rem 3rem;
+    margin-top: 480px;
+    margin-bottom:165px;
+}
+
+.htitulo h1{
+    font-size: 30px;
+    color: #ffffff;
+    padding: 2rem;
+}
+
+/* seccion contenido */
+
+main{
+    padding: 0 5%;
+}
+
+section{
+    padding: 1rem 0%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.subtitle{
+    padding: 1rem;
+    font-size: 30px;
+    font-weight:normal;
+}
+
+.info{
+    padding: 20px 10px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content:center;
+}
+
+p{
+    line-height: 25px;
+}
+
+
+/* sobre nosostros */
+
+.item-beneficio{
+    text-align: center;
+    margin: 5px;
+    width: 370px;
+}
+
+.item-beneficio h3{
+    font-size:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+/* seccion ventas */
+
+.infocasa{
+    margin: 10px;
+    width: 360px;
+    background-color:#f3f3f3;
+    border: 1px solid #a1a39e;
+}
+
+.infocasa img{
+   width: 100%;
+}
+
+.descripcion{
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.descripcion h3{
+    font-size:30px;
+    font-weight: normal;
+}
+
+.descripcion p{
+    margin: 10px 0;
+}
+
+.descripcion h4{
+    color: #509e01;
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.details-icon {
+    display: flex;
+    align-items: center;
+}
+
+.details-icon img{
+    width: 35px;
+    margin-right: 15px;
+}
+
+.descripcion button{
+    color: #ffffff;
+    background-color: #fc9203;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+}
+
+.descripcion button:active{
+    box-shadow:0 0 0 #0491a5, inset 0 0 5px rgba(0, 0, 0, 0.4); 
+}
+
+
+.btn-vert{
+    color: #ffffff;
+    background-color: #509e01;
+    height: 40px;
+    width: 125px;
+    align-self: flex-end;
+    margin-right: 290px;
+    cursor: pointer;
+}
+
+.btn-vert:active{
+    box-shadow:0 0 0 #0491a5, inset 0 0 5px rgba(0, 0, 0, 0.4); 
+}
+
+/* seccion footer */
+
+footer{
+    background: url(./img/encuentra.jpg);
+    height:100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.contacto{
+    margin-top: 100px;
+    margin-left: 15%;
+    color: #ffffff;
+}
+
+.contacto h2{
+    font-size:30px;
+}
+
+.contacto h2,.contacto p,.contacto button{
+    margin-bottom: 40px;
+}
+
+.contacto button{
+    color: #ffffff;
+    width: 140px;
+    height: 40px;
+    background-color: #fc9203;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contacto button:active{
+    box-shadow:0 0 0 #0491a5, inset 0 0 5px rgba(0, 0, 0, 0.4); 
+}
+
+.navfooter{
+    height: 30px;
+    padding: 15px 5%;
+    background-color: #201f22;
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-end;
+}
+
+.navfooter p{
+    color: #ffffff;
+}
+
+.menuf ul{
+    display: flex;
+}
+
+.menuf ul a{
+    color: #ffffff;
+    font-size: 17px;
+    padding: 0 10px;
+}
